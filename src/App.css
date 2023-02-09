@@ -1,0 +1,163 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.App{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #161a29, #1a293c, #1b3a4e, #194c5f, #175e6d);
+}
+
+.App-header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://images6.alphacoders.com/909/thumb-1920-909641.png);
+  background-size: cover;
+  background-position: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.search{
+  width: 100%;
+  max-width: 1200px;
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+
+
+}
+
+.search input{
+  width: 90%;
+  height: 5vh;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.search button{
+  width: 90%;
+  height: 5vh;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem;
+}
+
+@media (min-width: 600px){
+  .search input{
+    width: 300px;
+  }
+  .search button{
+  width: 150px;
+  }
+}
+
+.search-results{
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.result-info-titlte{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EB9928;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.result-info{
+  width: 90%;
+  color: #00C9A5;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 900px){
+  .result-info{
+    width: 250px;
+  }
+
+}
+
+.cards{
+  width: 100vw;
+  max-width: 1200px;
+  color: #0d0d1d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  background:#24273B;
+  margin: 1rem;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+}
+
+.card-image hr{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: none;
+  background: gray;
+  box-shadow: 0px 0px 5px 5px #ffffff4b;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+}
+
+.card-image{
+  width: 100%;
+  height: 50%;
+}
+.card-image img{
+  height: 100%;
+  border-radius: 1rem 1rem 0 0 ;
+  overflow: hidden;
+}
+
+.card-info{
+  width: 100%;
+  padding-left: 2rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.text-description{
+  color: #7a7a7a;
+  font-size: 0.7rem;
+  line-height: 0.2rem;
+}
+
+.card-info h4{
+  color:#EB9928;
+}
